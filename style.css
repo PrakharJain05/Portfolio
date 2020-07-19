@@ -77,23 +77,24 @@
         width: 210px;
         height: 50px;
         position: absolute;
-        left: 4%;
-        bottom: 40px;
+        left: 2%;
+        bottom: 60px;
         display: flex;
         justify-content: space-around;
     }
     
-    .media span {
+    .media a {
         width: 50px;
         height: 50px;
         background: #fff;
+        color: black;
         text-align: center;
         line-height: 50px;
         border-radius: 50%;
         transition: 0.5s;
     }
     
-    .media span:hover {
+    .media a:hover {
         background: #000;
         color: #fff;
         cursor: pointer;
@@ -125,6 +126,12 @@
         background-size: 200%;
         background-position: 25% 40%;
     }
+
+    #projects .img-fluid {
+        width: fit-content;
+        height: 200px;
+    }
+
     /*#site main*/
     /*footer*/
     
