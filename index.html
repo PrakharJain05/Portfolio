@@ -195,16 +195,16 @@
                             </div>
                             <div class="col-sm-6 px-4">
                                 <h6 class="font-size-16 text-uppercase.text-black">Get in touch</h6>
-                                <form action="" onsubmit="fetchdata()" netlify="trye" class="py-3">
+                                <form action="" onsubmit="fetchdata()" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" class="py-3">
                                     <div class="row">
                                         <div class="col">
-                                            <input type="text" id="name" class="form-control" placeholder="Name">
+                                            <input type="text" id="name" name="form-name" class="form-control" placeholder="Name">
                                         </div>
                                         <div class="col">
-                                            <input type="email" id="email" class="form-control" placeholder="Email">
+                                            <input type="email" id="email" name="form-name" class="form-control" placeholder="Email">
                                         </div>
                                     </div>
-                                    <textarea id="message" cols="30" rows="3" class="form-control my-4" placeholder="Message"></textarea>
+                                    <textarea id="message" cols="30" rows="3" name="form-name" class="form-control my-4" placeholder="Message"></textarea>
                                     <button type="submit" class="btn btn-dark">Say Hello!!</button>
                                 </form>
                             </div>
